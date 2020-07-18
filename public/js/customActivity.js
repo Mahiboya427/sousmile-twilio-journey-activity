@@ -39,7 +39,7 @@ define([
         );
 
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
-
+        console.log('inArguments=======')
         console.log(inArguments);
 
         $.each(inArguments, function (index, inArgument) {
@@ -57,11 +57,13 @@ define([
     }
 
     function onGetTokens(tokens) {
-        console.log(tokens);
-        authTokens = tokens;
+      console.log("tokens=========");
+      console.log(tokens);
+      authTokens = tokens;
     }
 
     function onGetEndpoints(endpoints) {
+      console.log('endpoint=========');
         console.log(endpoints);
     }
 
@@ -76,6 +78,7 @@ define([
         
         payload['metaData'].isConfigured = true;
 
+        console.log('payload=====');
         console.log(payload);
         connection.trigger('updateActivity', payload);
     }
