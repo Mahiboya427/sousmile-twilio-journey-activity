@@ -44,8 +44,7 @@ define([
 
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
-                
-              
+                              
             });
         });
 
@@ -73,11 +72,11 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-            "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"
+            "emailAddress": "{{InteractionDefaults.email}}"
         }];
         
         payload['metaData'].isConfigured = true;
-
+          
         console.log('payload=====');
         console.log(payload);
         connection.trigger('updateActivity', payload);
