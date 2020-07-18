@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://https://sousmile-marketing-cloud.herokuapp.com//journeybuilder/execute",
+          "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -31,24 +31,24 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "2980c964-7370-4abc-ba57-a3fe940b9fda",
+      "applicationExtensionKey": "637f44dc-f265-44e9-b945-12d9eb621123",
       "save": {
-        "url": "https://https://sousmile-marketing-cloud.herokuapp.com//journeybuilder/save",
+        "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://https://sousmile-marketing-cloud.herokuapp.com//journeybuilder/publish",
+        "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://https://sousmile-marketing-cloud.herokuapp.com//journeybuilder/stop",
+        "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://https://sousmile-marketing-cloud.herokuapp.com//journeybuilder/validate",
+        "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
