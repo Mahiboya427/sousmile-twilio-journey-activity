@@ -31,7 +31,7 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "637f44dc-f265-44e9-b945-12d9eb621123",
+    "applicationExtensionKey": "f7fc9f19-9a69-4b86-a567-3950ee8aa547",
     "save": {
       "url": "https://sousmile-marketing-cloud.herokuapp.com/journeybuilder/save",
       "verb": "POST",
